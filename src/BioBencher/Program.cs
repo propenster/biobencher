@@ -81,12 +81,12 @@ public class Program
 
 
 
-            // CLASTALW2 v. 2.1
+            // CLUSTALW2 v. 2.1
             Console.WriteLine($"{0}Running Clustalw2, replicate # {1}...{2}{3}", Environment.NewLine, i, Environment.NewLine, Environment.NewLine);
             Thread.Sleep(5000);
             //(time -p sh -c 'clustalw2 -INFILE=./inputs/clustalw/tufa420.seq -OUTPUT=PHYLIP 1> ./outputs/clustalw/results.txt 2>> benchResults.txt') 2>&1
             string clustalw2BashCommand = "(time -p sh -c 'clustalw2 -INFILE=./inputs/clustalw2/tufa420.seq -OUTPUT=PHYLIP 1> ./outputs/clustalw2/results.txt 2>> benchResults.txt') 2>&1";
-            cmd = Cli.Wrap("bash").WithArguments($"-c \"{bedToolsBashCommand}\"")
+            cmd = Cli.Wrap("bash").WithArguments($"-c \"{clustalw2BashCommand}\"")
                 //.WithStandardOutputPipe(PipeTarget.ToStringBuilder(toolsExecBuilder));
                 .WithStandardOutputPipe(PipeTarget.ToDelegate(line => toolsExecBuilder.AppendLine(line.TrimEnd('\n'))));
             result = await cmd.ExecuteBufferedAsync();
