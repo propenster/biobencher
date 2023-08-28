@@ -30,7 +30,7 @@ docker run -it propenster/debigenic bin/bash
 
 #### clone this repo
 ```
-git clone [https://github.com/propenster/biobencher](https://github.com/propenster/biobencher.git)
+git clone https://github.com/propenster/biobencher.git
 ```
 
 #### cd into ./biobencher
