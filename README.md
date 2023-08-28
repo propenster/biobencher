@@ -1,5 +1,5 @@
 # biobencher
-This is a benchmark of bioinformatics and genomic analysis tools particularly MSA, phyllo tools using our base debigenic genomic and bioinformatic analysis pipeline
+This is a tool that benchmarks performance and CPU footprint bioinformatics and genomic analysis tools particularly MSA, phyllo tools using our base debigenic genomic and bioinformatic analysis pipeline.
 
 ## Tools Benchmarked 
 * BEDTools
