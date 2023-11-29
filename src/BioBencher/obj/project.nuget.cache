@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "t+3WlFH5rsitXOZWn2wz0ZAsGSxeOQX9JdzB37JTGEHU+I91ySN01B7Z5ptR2PHBH0oWuRMnE4kp7qULQF4sYg==",
+  "dgSpecHash": "ZI+YPWcq8sxUgRE9Tz0evIseH7qFh08jiPuDvhWDhfIDxZmk6T7Aavstg2P6cpj4WTkC8AKPGXqgdgkfGKfs6A==",
   "success": true,
   "projectFilePath": "C:\\Users\\faith.olusegun\\source\\repos\\BioBencher\\src\\BioBencher\\BioBencher.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\faith.olusegun\\.nuget\\packages\\benchmarkdotnet\\0.13.7\\benchmarkdotnet.0.13.7.nupkg.sha512",
     "C:\\Users\\faith.olusegun\\.nuget\\packages\\benchmarkdotnet.annotations\\0.13.7\\benchmarkdotnet.annotations.0.13.7.nupkg.sha512",
-    "C:\\Users\\faith.olusegun\\.nuget\\packages\\clash\\1.0.3\\clash.1.0.3.nupkg.sha512",
     "C:\\Users\\faith.olusegun\\.nuget\\packages\\cliwrap\\3.6.4\\cliwrap.3.6.4.nupkg.sha512",
     "C:\\Users\\faith.olusegun\\.nuget\\packages\\commandlineparser\\2.9.1\\commandlineparser.2.9.1.nupkg.sha512",
     "C:\\Users\\faith.olusegun\\.nuget\\packages\\gee.external.capstone\\2.3.0\\gee.external.capstone.2.3.0.nupkg.sha512",

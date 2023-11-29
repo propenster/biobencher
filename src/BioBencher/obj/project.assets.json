@@ -40,15 +40,6 @@
           }
         }
       },
-      "Clash/1.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Clash.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Clash.dll": {}
-        }
-      },
       "CliWrap/3.6.4": {
         "type": "package",
         "compile": {
@@ -718,20 +709,6 @@
         "lib/netstandard2.0/BenchmarkDotNet.Annotations.dll",
         "lib/netstandard2.0/BenchmarkDotNet.Annotations.xml",
         "package-icon.png"
-      ]
-    },
-    "Clash/1.0.3": {
-      "sha512": "N/uWJAmraHB+zqDfHwUh6Zi8z9tLx5E4lCXoUTpxnuFBcN6XPYS4Lql8875Cn3dlXHbNBRxk2tD2aIv1locNZA==",
-      "type": "package",
-      "path": "clash/1.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "README.md",
-        "clash.1.0.3.nupkg.sha512",
-        "clash.nuspec",
-        "lib/netstandard2.0/Clash.dll"
       ]
     },
     "CliWrap/3.6.4": {
@@ -1805,12 +1782,13 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "BenchmarkDotNet >= 0.13.7",
-      "Clash >= 1.0.3",
-      "CliWrap >= 3.6.4"
+      "CliWrap >= 3.6.4",
+      "CommandLineParser >= 2.9.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\faith.olusegun\\.nuget\\packages\\": {}
+    "C:\\Users\\faith.olusegun\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1821,6 +1799,9 @@
       "packagesPath": "C:\\Users\\faith.olusegun\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\faith.olusegun\\source\\repos\\BioBencher\\src\\BioBencher\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\faith.olusegun\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -1852,13 +1833,13 @@
             "target": "Package",
             "version": "[0.13.7, )"
           },
-          "Clash": {
-            "target": "Package",
-            "version": "[1.0.3, )"
-          },
           "CliWrap": {
             "target": "Package",
             "version": "[3.6.4, )"
+          },
+          "CommandLineParser": {
+            "target": "Package",
+            "version": "[2.9.1, )"
           }
         },
         "imports": [
